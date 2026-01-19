@@ -25,7 +25,8 @@ An intelligent computer vision–based safety system that detects driver drowsin
 
 ### 📂 Project Repository
 👉 Check it here:  
-`(Add your project repo link here)`
+ https://github.com/yourusername/Drowsiness-and-Eye-Gaze-Alert
+
 
 ### 📫 Connect with Me
 - GitHub: https://github.com/mustafviesha-boop/
