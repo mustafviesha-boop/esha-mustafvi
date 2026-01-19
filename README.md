@@ -1,34 +1,38 @@
-## 👋 Hi, I'm Esha Mustafvi
+# 💤 Drowsiness and Eye Gaze Alert System
 
-🎓 Graduate in Public Administration  
-🤖 AI & Computer Vision Enthusiast  
-💻 Python | Machine Learning | OpenCV  
+## 📌 Project Overview
+This project is a real-time driver monitoring system designed to detect drowsiness and improper eye gaze using computer vision techniques. The system alerts the driver when signs of fatigue or distraction are detected, helping to reduce road accidents.
 
-### 🚀 Featured Project
-## 💤 Drowsiness & Eye Gaze Alert System
+---
 
-An intelligent computer vision–based safety system that detects driver drowsiness and abnormal eye gaze using real-time webcam input and alerts the user to prevent accidents.
+## 🎯 Objectives
+- Detect driver drowsiness using eye closure analysis
+- Monitor eye gaze direction
+- Provide real-time alerts
+- Enhance road safety using AI
 
-### 🔧 Technologies Used
+---
+
+## 🛠️ Technologies Used
 - Python
 - OpenCV
 - Dlib / MediaPipe
 - NumPy
-- Machine Learning
+- PyGame / Playsound (for alerts)
 
-### 🧠 Key Features
-- Real-time face & eye detection
-- Eye Aspect Ratio (EAR) based drowsiness detection
-- Eye gaze tracking
-- Audio/visual alert system
-- Live webcam monitoring
+---
 
-### 📂 Project Repository
-👉 Check it here:  
- https://github.com/mustafviesha-boop/Drowsiness-and-Eye-Gaze-Alert
+## ⚙️ How It Works
+1. Captures live video from webcam
+2. Detects face and eye landmarks
+3. Calculates Eye Aspect Ratio (EAR)
+4. Tracks eye gaze movement
+5. Triggers alert if drowsiness is detected
 
+---
 
-### 📫 Connect with Me
-- GitHub: https://github.com/mustafviesha-boop/
-# esha-mustafvi
-Official website project of Drowsiness and Eye gaze alert
+## ▶️ How to Run the Project
+```bash
+pip install opencv-python numpy dlib mediapipe
+python main.py
+
