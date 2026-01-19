@@ -28,11 +28,17 @@ This project is a real-time driver monitoring system designed to detect drowsine
 3. Calculates Eye Aspect Ratio (EAR)
 4. Tracks eye gaze movement
 5. Triggers alert if drowsiness is detected
-
 ---
 
 ## ▶️ How to Run the Project
 ```bash
 pip install opencv-python numpy dlib mediapipe
 python main.py
+📦 Drowsiness-Eye-Gaze-Alert
+ ┣ 📜 main.py
+ ┣ 📜 eye_gaze.py
+ ┣ 📜 drowsiness.py
+ ┣ 📂 models
+ ┣ 📂 assets
+ ┗ 📜 README.md
 
